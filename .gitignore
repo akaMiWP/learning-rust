@@ -1,0 +1,44 @@
+# Rust/Cargo
+
+# Compiled output
+*/*/target/
+
+# Rust package manager files
+**/*.rs.bk
+
+# If you have generated documentation, ignore that as well.
+/doc/
+
+# Build artifacts
+*.rlib
+*.lock
+
+# Binaries
+/*.exe
+/*.exe.*
+*.dll
+*.dylib
+*.so
+
+# Lock files for Cargo
+Cargo.lock
+
+# IDE/Editor specific files
+
+# JetBrains IDEs (CLion, IntelliJ, etc.)
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Temporary files and directories
+*.tmp
+*.swp
+*.swo
